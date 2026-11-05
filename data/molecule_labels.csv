@@ -1,0 +1,475 @@
+SMILES,Name,edible,bakery,sweet,fruit,fish,garlic,spices,cold,sour,burnt,acid,warm,musky,sweaty,ammonia_urinous,decayed,wood,grass,flower,chemical
+C1CCCCC1,Cyclohexane,0,0,1,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,1
+C1CCNC1,Pyrrolidine,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+C1CCNCC1,Piperidine,0,0,1,0,0,0,0,0,1,0,1,0,1,0,1,1,0,0,0,1
+C=C(C)C(=O)OC,Methyl methacrylate,0,0,1,0,0,0,1,0,1,0,1,0,1,0,0,0,0,0,0,1
+C=C(C)C1CC=C(C)C(=O)C1,(-)-Carvone,1,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1
+C=C(C)C1CC=C(C)C(OC(C)=O)C1,carvyl acetate,0,0,1,0,0,0,1,0,1,0,1,0,1,0,0,0,0,1,0,1
+C=C(C)C1CC=C(C)CC1,d-Limonene,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+C=C(C)C1CCC(C)C(=O)C1,D-Dihydrocarvone,1,0,1,1,0,0,1,1,1,0,1,1,1,0,1,0,0,0,1,1
+C=C(C)C1CCC(C)CC1O,(-)-Isopulegol,1,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1
+C=C(C)OC(C)=O,Isopropenyl acetate,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+C=C1CCC2CC1C2(C)C,(-)-beta-Pinene,0,0,1,0,0,0,1,1,1,0,1,1,0,0,0,0,0,0,0,1
+C=CC(C)(CCC=C(C)C)OC(C)=O,Linalyl acetate,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+C=CC(C)(O)CCC=C(C)C,Linalool,1,0,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,1
+C=CC(CCCCC)OC(C)=O,1-Octen-3-yl acetate,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+C=CC(O)CC,1-Penten-3-ol,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+C=CC(O)CCCC,1-Hepten-3-ol,0,0,1,0,0,0,1,0,1,1,1,1,1,1,1,1,0,1,0,1
+C=CC(O)CCCCC,1-Octen-3-ol,0,0,1,0,0,0,1,1,1,1,1,0,1,0,0,0,1,1,0,1
+C=CC1(C)CCC(C(C)(C)O)O1,linalool oxide,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+C=CCCC(=O)O,4-Pentenoic acid,0,0,0,0,0,0,0,0,1,1,1,0,1,1,1,1,0,0,0,1
+C=CCCCCCC,1-Octene,0,0,1,0,0,0,1,0,1,0,1,0,1,0,0,0,0,0,0,1
+C=CCCCCCCCCC(=O)OCCCC,Butyl 10-undecenoate,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,1
+C=CCCCCO,5-Hexen-1-ol,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,1,0
+C=CCOC(=O)C(C)=CC,Allyl tiglate,1,0,1,1,0,0,1,1,1,1,1,0,1,0,0,0,0,1,0,1
+C=CCOC(=O)C(CC)CC,Allyl 2-ethylbutyrate,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,1
+C=CCOC(=O)C=Cc1ccccc1,Allyl cinnamate,0,0,1,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,1,1
+C=CCOC(=O)CCC,Allyl butyrate,1,0,1,0,0,0,1,0,1,0,1,1,1,1,1,1,0,0,0,1
+C=CCOC(=O)CCC1CCCCC1,Allyl cyclohexanepropionate,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+C=CCOC(=O)CCCCC,allyl hexanoate,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+C=CCOC(=O)CCCCCC,Allyl heptanoate,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1
+C=CCOC(=O)Cc1ccccc1,Allyl phenylacetate,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+C=CCOC(=O)c1ccccc1N,Allyl anthranilate,0,0,1,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,1,1
+C=CCOC(=O)c1ccco1,Allyl 2-furoate,0,0,0,0,0,0,1,0,1,1,1,0,1,0,0,1,0,0,0,1
+C=CCSCC=C,Allyl Sulfide,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+C=CCc1ccc(O)c(OC)c1,eugenol,1,1,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1
+C=CCc1ccc(OC(C)=O)c(OC)c1,Eugenyl Acetate,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1
+C=CCc1ccc(OC)c(OC)c1,"4-allyl-1,2-dimethoxy benzene",0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+C=CCc1ccc(OC)cc1,4-Allylanisole,1,0,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1
+C=Cc1scnc1C,4-Methyl-5-vinylthiazole,0,0,0,0,0,0,0,1,1,1,1,0,1,0,1,1,0,0,0,1
+CC(=CCO)CCCC(C)CCCC(C)CCCC(C)C,Phytol,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1
+CC(=O)C(=O)O,Pyruvic Acid,1,1,1,0,0,0,1,0,1,1,1,1,1,0,0,0,0,0,0,1
+CC(=O)C(C)=O,"2,3-butanedione",1,0,0,0,0,0,1,0,1,1,1,0,1,1,1,0,0,0,0,1
+CC(=O)C=CC1=C(C)CCCC1(C)C,beta-Ionone,1,0,1,1,0,0,1,0,1,0,0,1,1,0,0,0,0,0,1,1
+CC(=O)CCC=C(C)C,6-Methyl-5-hepten-2-one,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,1
+CC(=O)CCc1ccc(O)cc1,4-(4-Hydroxyphenyl)-2-butanone,1,0,1,1,0,0,1,0,0,1,0,1,1,0,0,0,0,0,1,1
+CC(=O)O,acetic acid,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CC(=O)OC(C)(C)Cc1ccccc1,"alpha,alpha-Dimethylphenethyl acetate",0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,1
+CC(=O)OC(C)C,isopropyl acetate,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CC(=O)OC1CC(C)CCC1C(C)C,L-Menthyl acetate,1,0,1,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,1
+CC(=O)OC1CC2CCC1(C)C2(C)C,Bornyl acetate,0,0,1,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0,1
+CC(=O)OCC(COC(C)=O)OC(C)=O,Triacetin,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1
+CC(=O)OCC1CCCO1,Tetrahydrofurfuryl acetate,0,0,1,0,0,0,0,0,1,0,1,0,1,0,1,0,0,0,0,1
+CC(=O)OCC=C(C)CCC=C(C)C,Neryl acetate,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+CC(=O)OCCC(C)C,isopentyl acetate,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+CC(=O)OCCC1=CCC2CC1C2(C)C,Nopol acetate,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1
+CC(=O)OCCc1ccccc1,Phenethyl acetate,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1
+CC(=O)OCCc1scnc1C,4-Methyl-5-thiazoleethanol acetate,1,0,1,0,0,1,1,0,1,1,0,1,1,0,0,0,0,0,0,1
+CC(=O)OCc1ccccc1,benzyl acetate,1,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,1
+CC(=O)Oc1ccc(C)cc1,p-Tolyl acetate,0,0,1,0,0,0,1,0,1,1,1,0,1,1,1,1,0,0,1,1
+CC(=O)c1c(C)c([N+](=O)[O-])c(C(C)(C)C)c([N+](=O)[O-])c1C,musk ketone,0,0,1,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,1,1
+CC(=O)c1cc(C)oc1C,"3-Acetyl-2,5-dimethylfuran",0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+CC(=O)c1cc(C)sc1C,"3-Acetyl-2,5-dimethylthiophene",0,0,1,0,0,0,0,0,1,0,1,0,1,1,1,1,0,0,1,1
+CC(=O)c1cc2c(cc1C)C(C)(C)C(C)CC2(C)C,"6-Acetyl-1,1,2,4,4,7-Hexamethyltetralin",0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1
+CC(=O)c1ccc(C)o1,2-Acetyl-5-methylfuran,0,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,0,0,0,1
+CC(=O)c1ccc2ccccc2c1,Methyl beta-naphthyl ketone,1,0,1,1,0,0,1,1,0,0,0,1,0,0,0,0,0,0,1,1
+CC(=O)c1ccccc1,acetophenone,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1
+CC(=O)c1ccccc1N,2-Aminoacetophenone,1,0,1,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,1
+CC(=O)c1ccccc1O,2-Hydroxyacetophenone,0,0,1,0,0,0,0,0,1,1,1,0,1,0,1,0,0,0,0,1
+CC(=O)c1ccccn1,2-acetyl pyridine,1,1,1,0,0,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0
+CC(=O)c1cccnc1,3-Acetylpyridine,1,0,1,0,0,0,0,0,1,1,0,1,1,0,0,1,1,0,0,1
+CC(=O)c1cccs1,2-Acetylthiophene,1,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1
+CC(=O)c1ncc(C)nc1C,"2-Acetyl-3,5(6)-dimethylpyrazine",1,1,1,0,0,0,1,0,1,1,1,1,1,0,0,1,1,0,0,1
+CC(=O)c1nccs1,2-Acetylthiazole,1,1,1,0,0,1,1,0,1,1,0,1,1,0,0,0,1,0,0,0
+CC(C)(C)O,tert-butanol,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+CC(C)(O)CCc1ccccc1,dimethyl benzene propanol,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+CC(C)=CCCC(C)=CC#N,"3,7-Dimethyl-2,6-octadienenitrile",0,0,1,1,0,0,0,1,1,0,1,0,0,0,1,0,0,0,1,1
+CC(C)=CCCC(C)=CCO,geraniol,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,1
+CC(C)=CCCC(C)CCO,(-)-citronellol,0,0,1,1,0,0,1,0,1,0,1,1,0,0,0,0,0,0,1,1
+CC(C)=O,acetone,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CC(C)C(=O)O,Isobutyric acid,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0
+CC(C)C(=O)OCCOc1ccccc1,2-Phenoxyethyl isobutyrate,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1
+CC(C)C(=O)OCc1ccc2c(c1)OCO2,Piperonyl isobutyrate,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CC(C)C(N)C(=O)O,L-Valine,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+CC(C)C=O,Isobutyraldehyde,0,0,0,0,0,0,0,1,1,1,1,0,1,1,1,1,0,0,0,1
+CC(C)CC(=O)O,isovaleric acid,0,0,0,0,0,0,0,0,1,0,1,1,1,1,1,1,0,0,0,1
+CC(C)CC(=O)OC1CC(C)CCC1C(C)C,Menthyl isovalerate,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0
+CC(C)CC(N)C(=O)O,L-Leucine,1,0,1,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,1
+CC(C)CCC(=O)O,4-Methylvaleric acid,0,0,0,0,0,0,0,0,1,0,0,0,1,1,1,1,0,0,0,1
+CC(C)CCCC(C)CCO,"3,7-Dimethyl-1-octanol",0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1
+CC(C)CCN,Isoamylamine,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+CC(C)CCO,isoamyl alcohol,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+CC(C)CCOC(=O)C=Cc1ccccc1,Isoamyl cinnamate,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CC(C)CCS,3-Methyl-1-butanethiol,0,0,0,0,0,1,0,0,1,1,1,1,1,0,1,1,0,0,0,1
+CC(C)CO,2-methyl-1-propanol,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+CC(C)COC(=O)C=Cc1ccccc1,Isobutyl cinnamate,1,0,1,1,0,0,1,0,1,0,1,1,1,0,0,0,0,0,1,1
+CC(C)COC(=O)Cc1ccccc1,Isobutyl phenylacetate,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1
+CC(C)COC(=O)c1ccccc1,Isobutyl benzoate,0,0,1,1,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,1
+CC(C)Cc1nccs1,2-Isobutylthiazole,0,0,1,0,0,0,1,0,1,0,1,0,1,0,0,0,0,0,0,1
+CC(C)O,Isopropyl alcohol,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CC(C)c1ccc(C=O)cc1,cuminaldehyde,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+CC(C)c1ccc(CO)cc1,4-Isopropylbenzyl alcohol,0,0,0,0,0,0,1,0,0,1,1,0,1,1,1,1,0,0,0,1
+CC(C)c1ccccc1O,2-Isopropylphenol,0,0,1,0,0,0,1,1,1,1,1,0,1,0,1,0,0,0,0,1
+CC(N)C(=O)O,L-Alanine,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CC(O)C(C)O,butanediol,1,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0
+CC(O)C(C)S,2-Mercapto-3-butanol,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CC(O)CO,Propylene glycol,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CC(O)c1ccccc1,alpha-Methylbenzyl alcohol,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CC1(C)C2CC=C(C=O)C1C2,(1R)-(-)-Myrtenal,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1
+CC1(C)CCCC2(C)C1CCC1(C)OCCC12,Ambrox,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1
+CC12C=CCC1C1CCC3=CC(=O)CCC3(C)C1CC2,Androstadienone,0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0,0,0,1
+CC12CCC(C1)C(C)(C)C2=O,l-fenchone,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1
+CC12CCC(CC1)C(C)(C)O2,"1,8-cineole",1,0,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,1,1
+CC12CCC(CC1=O)C2(C)C,Camphor,0,0,1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,1
+CC1=C(O)C(=O)OC1C,"4,5-Dimethyl-3-hydroxy-2,5-dihydrofuran-2-one",1,1,1,0,0,0,1,0,1,1,0,1,1,0,0,0,0,0,0,1
+CC1=CC(=O)CC(C)(C)C1,Isophorone,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,1
+CC1=CC(=O)CC(C)(C)C1=O,4-Oxoisophorone,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1
+CC1=CC(C)C(C=O)CC1,Trivertal,0,0,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1
+CC1=CCC(C(C)(C)OC=O)CC1,Terpinyl formate,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1
+CC1=CCC2CC1C2(C)C,alpha-pinene,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,1
+CC1CCC(=O)C1=O,Methylcyclopentenolone,1,1,1,0,0,0,1,0,1,1,1,1,1,0,0,0,0,0,0,1
+CC1CCC(=O)CC1,4-Methylcyclohexanone,0,0,1,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,1
+CC1CCC(=O)O1,gamma-valerolactone,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CC1CCC(C(C)C)C(O)C1,( + )-menthol,1,0,1,0,0,0,1,1,0,0,1,1,0,0,1,0,0,0,0,1
+CC1CCCC(=O)C1,3-Methylcyclohexanone,0,0,1,0,0,0,1,1,0,1,1,0,1,0,1,0,0,0,0,1
+CC1CCCC(=O)O1,delta-Hexalactone,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1
+CC1CCCCC1=O,2-Methylcyclohexanone,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,1
+CC1COC(c2ccccc2)O1,Benzaldehyde propylene glycol acetal,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+CC=C(C)C(=O)OCCC=CCC,cis-3-Hexenyl tiglate,0,0,1,1,0,0,1,1,1,0,1,1,1,0,0,0,1,1,1,1
+CC=C(C=O)c1ccccc1,2-Phenyl-2-butenal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CC=CC(=O)C(C)CC,5-Methyl-2-hepten-4-one,1,0,1,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,1,1
+CC=CC=CC(=O)OCC,Ethyl sorbate,0,0,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1
+CC=CC=CCO,"trans,trans-2,4-Hexadien-1-ol",0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1
+CC=CC=CCOC(C)=O,"trans,trans-2,4-Hexadienyl acetate",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CC=Cc1ccc(O)c(OC)c1,Isoeugenol,1,1,1,1,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,1
+CC=Cc1ccc(OC(=O)Cc2ccccc2)c(OC)c1,Isoeugenyl phenylacetate,1,1,1,1,0,0,1,0,0,1,0,1,1,0,0,0,0,0,1,1
+CC=Cc1ccc(OC(C)=O)c(OC)c1,isoeugenol acetate,1,1,1,1,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,1
+CC=Cc1ccc(OC)c(OC)c1,methyl isoeugenol,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CC=Cc1ccc(OC)cc1,trans-Anethole,1,0,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1
+CC=Cc1ccc2c(c1)OCO2,Isosafrole,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+CC=O,acetaldehyde,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CCC(=O)CC,3-Pentanone,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,0,0,0,1
+CCC(=O)O,propionic acid,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0
+CCC(=O)OC,Methyl Propionate,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CCC(=O)OCC(C)C,Isobutyl propionate,1,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1
+CCC(=O)OCC=Cc1ccccc1,trans-Cinnamyl propionate,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+CCC(=O)OCCCc1ccccc1,3-Phenylpropyl propionate,0,0,1,0,0,0,0,0,1,0,0,0,1,1,1,1,0,0,0,1
+CCC(=O)OCCc1ccccc1,Phenethyl propionate,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1
+CCC(=O)OCc1ccccc1,Benzyl propionate,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+CCC(C)=O,2-butanone,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CCC(C)C1CCCCC1=O,2-sec-Butylcyclohexanone,1,0,1,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,1,1
+CCC(C)CO,2-Methyl-1-butanol,0,0,1,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,1
+CCC(C)O,(S)-( + )-2-butanol,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1
+CCC(C)c1nccs1,2-(1-Methylpropyl)thiazole,0,0,0,0,0,1,1,0,1,1,1,1,1,1,1,1,0,1,0,1
+CCC(O)CC,3-pentanol,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,0,0,0,1
+CCC(O)c1ccccc1,1-Phenyl-1-propanol,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CCC1(O)C2(C)CCC(C2)C1(C)C,2-Ethylfenchol,0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,1,1,1,1
+CCC1OC(=O)C(O)=C1C,5-Ethyl-3-hydroxy-4-methyl-2(5H)-furanone,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+CCC=CCCC=O,cis-4-Heptenal,1,0,0,0,0,0,1,0,1,0,0,1,1,0,0,1,0,0,0,1
+CCC=CCCCCO,cis-5-Octen-1-ol,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1
+CCC=CCCO,cis-3-Hexen-1-ol,1,0,1,1,0,0,1,0,1,0,0,0,1,0,0,0,0,1,1,0
+CCC=CCCOC(=O)C(C)C,cis-3-Hexenyl isobutyrate,0,0,1,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,1
+CCC=CCCOC(=O)C(C)O,cis-3-Hexenyl lactate,0,0,1,1,0,0,1,0,1,0,0,0,1,0,0,0,1,1,1,1
+CCC=CCCOC(=O)CC,cis-3-Hexenyl propionate,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+CCC=CCCOC(=O)Cc1ccccc1,cis-3-Hexenyl phenylacetate,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1
+CCC=CCCOC(=O)c1ccccc1,cis-3-Hexenyl benzoate,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+CCC=CCCOC(=O)c1ccccc1O,cis-3-Hexenyl salicylate,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1
+CCC=CCCOC(C)=O,cis-3-hexenyl acetate,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+CCCC(=O)CCC,4-Heptanone,1,0,1,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,1
+CCCC(=O)O,butyric acid,0,0,0,0,0,0,1,0,1,1,1,1,1,1,1,1,0,0,0,1
+CCCC(=O)OC,Methyl butyrate,1,0,1,1,0,0,0,0,1,0,0,1,1,1,0,1,0,0,0,1
+CCCC(=O)OCC,ethyl butyrate,1,1,1,1,0,0,1,0,1,0,0,1,0,0,0,0,0,0,1,1
+CCCC(=O)OCC(COC(=O)CCC)OC(=O)CCC,Tributyrin,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,1,0,0,0,1
+CCCC(=O)OCCC(C)C,Isoamyl butyrate,0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1
+CCCC(=O)SC,Methyl thiobutyrate,0,0,0,0,1,0,0,0,1,0,1,0,1,1,1,1,0,0,0,1
+CCCC(C)C(=O)O,2-Methylpentanoic acid,0,0,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0
+CCCC(C)C(=O)OCC,Ethyl 2-methylpentanoate,1,0,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,1
+CCCC(C)O,2-pentanol,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+CCCC(O)CC,3-hexanol,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1
+CCCC(O)CC(=O)OCC,ethyl-3-hydroxyhexanoate,0,0,1,0,0,0,1,0,1,0,0,1,1,1,0,0,0,0,1,1
+CCCC1CCOC(C)S1,"2-Methyl-4-propyl-1,3-oxathiane",0,0,1,1,0,0,0,0,1,0,1,0,1,1,0,0,0,0,0,1
+CCCC=CC=O,2-hexenal,1,0,1,1,0,0,1,1,1,1,1,0,1,1,0,0,0,0,0,1
+CCCC=CCOC(C)=O,trans-2-Hexenyl acetate,0,0,1,1,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1
+CCCC=O,butyraldehyde,0,0,0,0,0,0,1,0,1,1,1,1,1,1,1,1,0,0,0,1
+CCCCC(=O)O,valeric acid,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,1,0,0,0,1
+CCCCC(=O)OC,Methyl valerate,1,0,1,1,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,1
+CCCCC(=O)OCC,Ethyl Valerate,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1
+CCCCC(C)=O,2-hexanone,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+CCCCC(C)CCC(=O)O,(±)-4-Methyloctanoic acid,0,0,0,0,0,0,1,0,1,1,1,1,1,1,1,1,1,0,0,1
+CCCCC(C)O,2-hexanol,0,0,1,0,0,0,0,0,1,0,1,0,1,0,1,0,0,0,0,1
+CCCCC(CC)C(=O)O,2-Ethylhexanoic acid,0,0,0,0,0,0,1,0,1,0,1,1,1,1,1,1,0,0,0,1
+CCCCC(CC)CO,2-ethyl-1-hexanol,0,0,0,0,0,0,0,0,1,1,1,0,1,1,1,1,0,0,0,1
+CCCCC(CC)COC(C)=O,2-ethylhexyl acetate,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CCCCC1OC(=O)CC1C,Whiskey lactone,1,1,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1
+CCCCC=O,valeraldehyde,0,0,1,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0
+CCCCCC(=O)CC,3-octanone,1,0,1,1,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1
+CCCCCC(=O)CCCCC,6-Undecanone,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+CCCCCC(=O)O,caproic acid,0,0,0,0,0,0,0,0,1,1,1,0,1,1,1,1,0,0,0,1
+CCCCCC(=O)OC,methyl caproate,1,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1
+CCCCCC(=O)OCC,ethyl hexanoate,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1
+CCCCCC(C)=O,2-heptanone,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1
+CCCCCC(C=O)=Cc1ccccc1,alpha-Amylcinnamaldehyde,0,0,1,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,1
+CCCCCC(CC)OC(C)=O,3-Octyl Acetate,1,0,1,1,0,0,1,1,1,0,1,1,1,0,1,0,0,0,1,1
+CCCCCC(O)CC,3-Octanol,0,0,1,0,0,0,1,0,1,0,1,0,1,0,0,0,0,0,0,1
+CCCCCC1=C(C)CCC1=O,Dihydrojasmone,1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,1
+CCCCCC1CCCC(=O)O1,delta-Decalactone,1,1,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,1
+CCCCCC=CCC=CCCCCCCCC(=O)O,Linoleic acid,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,1
+CCCCCC=CCCCO,cis-4-Decen-1-ol,0,0,1,1,0,0,1,0,1,0,0,0,1,0,0,0,0,0,1,1
+CCCCCC=CCO,trans-2-Octen-1-ol,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1
+CCCCCC=O,Hexanal,0,0,0,0,0,0,0,0,1,0,1,0,1,1,1,1,0,0,0,1
+CCCCCCC#CC(=O)OC,Methyl 2-nonynoate,1,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1
+CCCCCCC(=O)O,Heptanoic Acid,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,1
+CCCCCCC(=O)OC,Methyl heptanoate,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1
+CCCCCCC(=O)OCC,Ethyl heptanoate,1,0,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1
+CCCCCCC(C)=O,2-octanone,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+CCCCCCC1CCC(=O)O1,gamma-decalactone,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+CCCCCCC1CCCC(=O)O1,delta-Undecalactone,1,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1
+CCCCCCC=CC(=O)OC,Methyl trans-2-nonenoate,0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1
+CCCCCCC=CC(C)=O,3-Decen-2-one,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,1
+CCCCCCC=CCO,cis-2-Nonen-1-ol,0,0,1,0,0,0,1,0,1,1,1,1,1,1,0,1,1,0,0,1
+CCCCCCCC,Octane,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+CCCCCCCC(=O)O,Octanoic acid,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,1,0,0,0,1
+CCCCCCCC(=O)OC,Methyl caprylate,1,0,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,1
+CCCCCCCC(=O)OCC,Ethyl octanoate,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1
+CCCCCCCC(=O)OCCC(C)C,Isoamyl octanoate,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,1
+CCCCCCCC(=O)OCCCCC,N-Amyl octanoate,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CCCCCCCC(=O)OCCCCCC,Hexyl octanoate,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CCCCCCCC(C)=O,2-Nonanone,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1
+CCCCCCCC=O,octanal,0,0,1,1,0,0,0,1,1,0,1,0,1,1,0,0,0,0,1,1
+CCCCCCCCC(=O)OC,Methyl nonanoate,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+CCCCCCCCC(C)=O,2-decanone,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1
+CCCCCCCCCC(=O)O,decanoic acid,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,1
+CCCCCCCCCC(=O)OCC,Ethyl decanoate,0,0,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,1
+CCCCCCCCCC(C)=O,2-Undecanone,1,0,1,1,0,0,1,0,1,0,1,1,1,0,0,0,0,0,1,1
+CCCCCCCCCC(OC)OC,Decanal dimethyl acetal,1,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1
+CCCCCCCCCC1CCCC(=O)O1,delta-Tetradecalactone,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+CCCCCCCCCC=O,decanal,0,0,0,0,0,0,0,0,1,1,1,0,1,1,1,0,1,0,0,1
+CCCCCCCCCCC,undecane,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+CCCCCCCCCCC(=O)O,Undecanoic acid,0,0,0,0,0,0,0,0,1,1,1,0,1,1,1,1,0,0,0,1
+CCCCCCCCCCC(=O)OCC,Ethyl undecanoate,1,0,1,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,1,1
+CCCCCCCCCCC=O,undecanal,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+CCCCCCCCCCCC(=O)O,Lauric acid,0,0,0,0,0,0,0,0,1,1,1,0,1,1,1,0,0,0,0,1
+CCCCCCCCCCCC(=O)OCCC(C)C,Isoamyl laurate,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,1
+CCCCCCCCCCCCCC(=O)OC(C)C,Isopropyl myristate,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CCCCCCCCCCCCCC(=O)OCC,Ethyl myristate,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+CCCCCCCCCCCCCCCCCC(=O)OCC,Ethyl stearate,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+CCCCCCCCCCCCCCCCO,1-Hexadecanol,1,0,1,0,0,0,0,0,1,1,0,1,1,0,0,0,1,0,0,1
+CCCCCCCCCCCCO,Lauryl alcohol,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+CCCCCCCCCCCCOC(C)=O,Lauryl acetate,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CCCCCCCCCCCO,1-undecanol,0,0,1,0,0,0,0,1,0,0,1,0,1,0,1,0,0,0,1,1
+CCCCCCCCCCO,decanol,0,0,1,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,1,1
+CCCCCCCCCO,nonanol,0,0,1,0,0,0,0,0,1,0,1,0,1,0,1,0,0,0,1,1
+CCCCCCCCCOC(C)=O,Nonyl acetate,0,0,1,0,0,0,0,0,1,0,1,0,1,1,1,0,0,0,0,1
+CCCCCCCCO,octanol,0,0,1,1,0,0,0,0,1,0,1,0,1,0,1,0,0,0,1,1
+CCCCCCCCOC(=O)C(C)C,Octyl isobutyrate,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CCCCCCCCOC(=O)CC(C)C,Octyl isovalerate,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+CCCCCCCO,heptanol,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1
+CCCCCCCOC(C)=O,heptyl acetate,1,0,1,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,1,1
+CCCCCCO,hexanol,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+CCCCCCOC(=O)CC,Hexyl propionate,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CCCCCCOC(=O)CCC,hexyl butyrate,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,1
+CCCCCCOC(=O)CCCCC,Hexyl hexanoate,0,0,1,1,0,0,1,0,1,1,0,0,1,1,0,0,0,0,1,1
+CCCCCCOC(=O)c1ccccc1,Hexyl benzoate,0,0,1,0,0,0,0,0,1,1,1,0,1,0,1,0,1,0,0,1
+CCCCCCOC(C)=O,hexyl acetate,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+CCCCCCOC=O,Hexyl Formate,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1
+CCCCCO,pentanol,0,0,0,0,0,0,0,0,1,0,1,0,1,1,1,0,0,0,0,1
+CCCCCOC(=O)CCC,Amyl butyrate,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CCCCCOC(=O)CCCCC,Amyl hexanoate,1,0,1,1,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1
+CCCCCOC(C)=O,pentyl acetate,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1
+CCCCN,Butylamine,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+CCCCO,butanol,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CCCCOC(=O)C(C)O,Butyl (S)-(-)-lactate,1,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1
+CCCCOC(=O)CC,Butyl Propionate,1,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1
+CCCCOC(=O)CC(CC(=O)OCCCC)(OC(C)=O)C(=O)OCCCC,Tributyl-2-Acetylcitrate,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CCCCOC(=O)CCC,butyl butyrate,1,0,1,1,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,1
+CCCCOC(=O)Cc1ccccc1,Butyl phenylacetate,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1
+CCCCOC(C)=O,butyl acetate,1,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,1
+CCCCOC=O,Butyl formate,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CCCO,propanol,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+CCCOC(=O)CC,Propyl propionate,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1
+CCCOC(=O)CCC,propyl butyrate,0,0,1,1,0,0,1,0,1,0,0,0,1,1,1,1,0,0,0,1
+CCCOC(C)=O,propyl acetate,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1
+CCCSCCC,propyl sulfide,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CCCSSCCC,dipropyl disulfide,1,0,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0,0,0,1
+CCCc1ccc(O)cc1,4-propylphenol,0,0,1,0,0,0,1,0,0,0,1,0,1,0,1,0,0,0,0,1
+CCO,ethanol,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CCOC(=O)C(C)CC,Ethyl 2-methylbutyrate,1,1,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,1
+CCOC(=O)C1OC1(C)c1ccccc1,Ethyl 3-methyl-3-phenylglycidate,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CCOC(=O)C=Cc1ccccc1,ethyl cinnamate,1,0,1,1,0,0,1,0,1,0,0,1,0,0,0,0,0,0,1,1
+CCOC(=O)CC,ethyl propionate,1,0,1,1,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,1
+CCOC(=O)CC(=O)OCC,Diethyl malonate,1,1,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,1
+CCOC(=O)CC(C)O,ethyl-3-hydroxybutyrate,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+CCOC(=O)CC(O)(CC(=O)OCC)C(=O)OCC,Triethyl citrate,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CCOC(=O)CC(O)C(=O)OCC,Diethyl malate,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+CCOC(=O)CCC(=O)OCC,diethyl succinate,1,0,1,1,0,0,1,1,1,0,1,0,0,0,0,0,0,0,1,1
+CCOC(=O)CCCCCCCCC(=O)OCC,Diethyl sebacate,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CCOC(=O)CCSCc1ccco1,Ethyl 3-(furfurylthio)propionate,0,0,0,0,0,1,1,0,1,1,1,1,1,1,0,1,0,0,0,1
+CCOC(=O)c1ccccc1,Ethyl benzoate,0,0,1,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,1,1
+CCOC(=O)c1ccco1,Ethyl 2-furoate,1,0,1,0,0,0,1,0,1,0,1,0,1,0,1,0,0,0,0,1
+CCOC(C)=O,ethyl acetate,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+CCOC(C)OCC,Acetal,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+CCOC=O,Ethyl formate,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+CCOc1cc(C=O)ccc1O,Ethyl Vanillin,1,1,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0
+CCOc1ccc(C=O)cc1,4-Ethoxybenzaldehyde,1,1,1,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,1,1
+CCOc1nccs1,2-Ethoxythiazole,1,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,0,0,1
+CCSCC,Diethyl sulfide,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,1
+CCSSCC,Diethyl disulfide,1,0,0,0,1,1,1,0,1,1,1,0,1,1,1,1,0,0,0,1
+CCc1ccc(O)c(OC)c1,4-Ethylguaiacol,1,1,1,0,0,1,1,0,1,1,1,1,1,0,0,0,1,0,0,1
+CCc1ccccc1,ethylbenzene,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1
+CCc1ccccc1O,2-ethylphenol,0,0,0,0,0,0,0,1,1,1,1,1,1,0,1,0,0,0,0,1
+CCc1ccco1,2-Ethylfuran,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+CCc1cnccn1,2-ethyl pyrazine,1,1,1,0,0,0,1,0,1,1,0,1,1,0,0,0,0,0,0,1
+CCc1nc(C)cs1,2-Ethyl-4-methylthiazole,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,1
+CCc1nccnc1C,2-Ethyl-3-methylpyrazine,1,1,1,0,0,0,1,0,1,1,0,1,1,0,0,1,1,0,0,1
+CCc1nccnc1C(C)=O,2-Acetyl-3-ethylpyrazine,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,1,1,1,0,1
+CCc1nccnc1CC,"2,3-Diethylpyrazine",0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,1
+CNc1ccccc1C(=O)OC,Dimethyl anthranilate,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+CO,methanol,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+COC(=O)CCC(=O)OC,dimethyl succinate,0,0,1,1,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1
+COC(=O)CCSC,Methyl 3-(methylthio)propionate,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1
+COC(=O)CSC,Methyl (methylthio)acetate,0,0,0,0,1,1,1,0,1,0,1,0,1,0,1,1,0,0,0,1
+COC(=O)Cc1ccccc1,Methyl phenylacetate,0,0,1,0,0,0,1,1,1,0,1,1,1,1,1,1,0,0,1,1
+COC(=O)c1ccccc1,methyl benzoate,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+COC(=O)c1ccccc1N,Methyl anthranilate,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1
+COC(=O)c1ccccc1O,methyl salicylate,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1
+COC(=O)c1ccccc1OC,Methyl 2-methoxybenzoate,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+COC(=O)c1cccnc1,Methyl nicotinate,0,0,1,0,0,0,0,1,1,1,1,1,1,0,1,1,1,0,0,1
+COC(=O)c1ccco1,methyl 2-furoate,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,1
+COC(C)=O,methyl acetate,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1
+COC(OC)c1ccccc1,Benzaldehyde dimethyl acetal,0,0,1,0,0,0,0,0,1,0,1,0,1,0,1,0,0,0,0,1
+COC1=C(C)OC(C)C1=O,"2,5-Dimethyl-4-methoxy-3(2H)-furanone",0,0,0,0,0,0,1,0,1,1,1,1,1,1,1,1,0,0,0,1
+COc1c(C(C)(C)C)cc([N+](=O)[O-])c(C)c1[N+](=O)[O-],omega-6-Hexadecenlactone,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+COc1cc(C(=O)O)ccc1O,4-hydroxy-3-methoxybenzoic acid,0,0,1,0,0,0,1,0,0,1,0,1,1,0,0,0,0,0,1,1
+COc1cc(C(C)=O)ccc1O,Acetovanillone,1,0,1,0,0,0,1,0,1,1,0,1,1,0,0,0,0,0,0,1
+COc1cc(C)ccc1C(C)C,1-Methyl-3-methoxy-4-isopropylbenzene,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+COc1cc(C)ccc1O,2-Methoxy-4-methylphenol,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,1,0,0,1
+COc1cc(C=O)ccc1O,vanillin,1,1,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0
+COc1cc(C=O)ccc1OC(C)=O,Vanillin Acetate,1,1,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+COc1ccc(C(C)=O)cc1,Acetanisole,1,1,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1
+COc1ccc(C(C)=O)cc1OC,"3,4-Dimethoxyacetophenone",1,0,1,0,0,0,1,0,1,1,0,1,1,1,1,1,0,0,0,1
+COc1ccc(C)cc1,4-Methylanisole,0,0,1,1,0,0,1,0,1,0,1,0,1,0,0,0,0,0,1,1
+COc1ccc(C=O)cc1,p-Anisaldehyde,1,0,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,1
+COc1ccc(C=O)cc1OC,Veratraldehyde,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1
+COc1ccc(COC(C)=O)cc1,Anisyl acetate,1,0,1,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,1,1
+COc1ccc(O)c(C(C)(C)C)c1,Butylated hydroxyanisole,0,0,0,0,0,0,1,0,0,1,1,0,1,0,0,0,0,0,0,1
+COc1ccc(OC)cc1,dimethoxy benzene,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+COc1ccc2ccc(=O)oc2c1,7-Methoxycoumarin,1,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1
+COc1ccc2ccccc2c1,Nerolin Yara Yara,1,0,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,1,1
+COc1cccc(C=O)c1,m-Anisaldehyde,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+COc1cccc(OC)c1,"1,3-Dimethoxybenzene",1,0,1,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0,0,1
+COc1ccccc1,anisole,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,1
+COc1ccccc1C=O,o-Anisaldehyde,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,0,0,1
+COc1ccccc1O,Guaiacol,1,0,1,0,0,0,1,0,1,1,1,1,1,0,0,0,0,0,0,1
+COc1ccccc1OC(=O)Cc1ccccc1,Guaiacyl phenylacetate,0,0,1,0,0,0,1,1,1,1,1,0,1,1,1,1,0,0,1,1
+COc1ccccc1OC(C)=O,2-Methoxyphenyl acetate,1,0,1,0,0,0,1,1,1,1,1,1,1,0,0,1,1,0,0,1
+COc1ccccc1S,2-Methoxythiophenol,0,0,0,0,0,0,1,0,1,1,1,0,1,0,1,1,0,0,0,1
+COc1cncc(C(C)C)n1,2-Methoxy-3(5 or 6)-isopropylpyrazine,0,0,0,0,0,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1
+COc1cnccn1,2-Methoxypyrazine,1,1,1,0,0,0,1,0,1,1,0,1,1,0,0,0,0,0,0,1
+COc1nccnc1C,2-Methoxy-3-methylpyrazine,1,1,1,0,0,0,1,0,0,1,0,1,1,0,0,1,1,0,0,1
+COc1nccnc1CC(C)C,2-isobutyl-3-methoxypyrazine,1,0,1,0,0,1,1,0,0,1,1,1,1,0,0,0,1,1,0,1
+CS(C)(=O)=O,Methyl sulfone,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CS(C)=O,Methyl sulfoxide,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+CSC,methyl sulfide,1,0,1,0,1,1,1,0,1,0,1,0,1,1,0,1,0,0,0,1
+CSCCC(N)C(=O)O,L-Methionine,1,0,0,0,1,1,1,0,1,1,1,1,1,1,0,1,0,0,0,1
+CSCCC=O,3-(Methylthio)propionaldehyde,1,0,0,0,1,1,1,0,1,0,0,1,1,1,1,1,0,0,0,1
+CSCCCN=C=S,3-(Methylthio)propyl isothiocyanate,1,0,0,0,1,1,1,0,1,0,1,1,1,0,1,1,0,0,0,1
+CSCCCO,3-(methylthio)-1-propanol,1,0,0,0,1,1,1,0,1,1,1,1,1,0,1,1,0,0,0,1
+CSCCO,2-(Methylthio)ethanol,1,0,0,0,0,1,1,0,1,0,0,0,1,0,0,1,0,0,0,0
+CSCSC,Bis(methylthio)methane,0,0,0,0,0,1,1,0,1,0,1,0,1,1,1,1,0,0,0,1
+CSSSC,Dimethyl trisulfide,1,0,0,0,1,1,1,0,1,1,1,0,1,1,1,1,0,0,0,1
+CSc1ccoc1C,2-Methyl-3-methylthiofuran,1,0,0,0,0,0,1,0,1,1,0,1,1,1,0,0,0,0,0,1
+Cc1cc(C(C)(C)C)c(O)c(C(C)(C)C)c1,Butylated hydroxytoluene,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Cc1ccc(C(C)C)c(O)c1,thymol,0,0,0,0,0,0,1,0,0,1,1,1,1,0,0,0,1,0,0,1
+Cc1ccc(C(C)C)cc1,para-cymene,0,0,1,0,0,0,1,1,1,1,1,1,1,0,1,0,0,0,0,1
+Cc1ccc(C(C)C)cc1O,Carvacrol,1,0,0,0,0,0,1,0,0,1,1,1,1,0,0,0,1,0,0,1
+Cc1ccc(C(C)CC=O)o1,3-(5-Methyl-2-furyl)butanal,0,0,1,0,0,0,0,1,1,0,1,1,1,1,1,1,0,0,0,1
+Cc1ccc(C)[nH]1,"2,5-Dimethylpyrrole",1,1,1,0,0,1,1,0,0,1,0,1,1,0,0,0,0,0,0,1
+Cc1ccc(C=O)o1,5-Methylfurfural,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1
+Cc1ccc(O)cc1,p-cresol,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,1
+Cc1ccc2ncccc2c1,6-methyl quinoline,0,0,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,1
+Cc1ccc2oc(=O)ccc2c1,6-Methylcoumarin,1,0,1,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,1
+Cc1cccc(C)n1,"2,6-Dimethylpyridine",0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,0,0,1
+Cc1cccc2nccnc12,5-Methylquinoxaline,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cc1ccccc1C=O,o-Tolualdehyde,1,0,1,1,0,0,1,1,1,0,1,1,0,0,0,0,0,0,1,1
+Cc1ccccc1S,o-Toluenethiol,1,0,0,0,0,0,1,0,1,1,0,0,1,0,1,1,0,0,0,1
+Cc1ccco1,2-Methylfuran,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cc1ccnc2ccccc12,4-Methylquinoline,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cc1cnc(C)cn1,"2,5-dimethyl pyrazine",0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Cc1cscn1,4-Methylthiazole,1,0,0,0,0,1,1,0,1,1,1,1,1,1,0,1,0,0,0,1
+Cc1nc(C)c(C)nc1C,"2,3,5,6-Tetramethylpyrazine",0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,0,0,0,0,1
+Cc1nc(C)c(C)s1,"2,4,5-Trimethylthiazole",1,1,1,0,0,0,1,0,0,1,1,0,1,0,0,1,1,0,0,1
+Cc1ncc(C[n+]2csc(CCO)c2C)c(N)n1.Cl.[Cl-],Thiamine hydrochloride,1,0,1,0,0,1,1,0,1,1,0,1,1,0,0,0,0,0,0,1
+Cc1ncsc1CCO,4-Methyl-5-thiazoleethanol,1,0,0,0,0,1,1,0,1,1,0,1,1,0,0,1,0,0,0,1
+IC(I)I,Iodoform,0,0,1,0,0,0,1,1,1,1,1,0,1,0,1,0,0,0,0,1
+II,Iodine,0,0,0,0,0,0,0,0,1,1,1,0,1,1,1,1,0,0,0,1
+NC(=O)CCC(N)C(=O)O,L-Glutamine,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NC(CC(=O)O)C(=O)O,Aspartic Acid,0,0,0,0,0,0,0,0,1,0,1,0,1,1,1,1,0,0,0,1
+NC(CCC(=O)O)C(=O)O,L-Glutamic acid,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+NC(CS)C(=O)O,L-Cysteine,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,0,1
+NC(Cc1ccc(O)cc1)C(=O)O,L-Tyrosine,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NC(Cc1ccccc1)C(=O)O,DL-Phenylalanine,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1
+NC(Cc1cnc[nH]1)C(=O)O,L-Histidine,0,0,1,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,1
+NC(N)=NCCCC(N)C(=O)O,L-Arginine,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NCC(=O)O,Glycine,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+NCCC(=O)O,beta-Alanine,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1
+NCCCCC(N)C(=O)O,L-Lysine,0,0,0,0,0,0,0,0,1,1,1,0,1,1,1,1,0,0,0,1
+NCCc1ccc(O)cc1,Tyramine,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+NCCc1ccccc1,Phenethylamine,0,0,0,0,1,0,0,0,1,0,0,0,1,1,1,1,0,0,0,1
+Nc1ccccc1C(=O)OCCc1ccccc1,Phenethyl anthranilate,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+O,Water,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+O=C(C=CC=Cc1ccc2c(c1)OCO2)N1CCCCC1,Piperine,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+O=C(Cc1ccccc1)Cc1ccccc1,"1,3-Diphenyl-2-propanone",0,0,1,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,1
+O=C(Cc1ccccc1)OCCc1ccccc1,Phenethyl phenylacetate,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+O=C(Cc1ccccc1)OCc1ccccc1,Benzyl phenylacetate,0,0,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0
+O=C(O)C(O)C(O)C(=O)O,DL-Tartaric acid,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+O=C(O)C1CCCN1,L-Proline,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,1
+O=C(O)C=CC(=O)O,Fumaric acid,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1
+O=C(O)C=Cc1ccccc1,trans-Cinnamic acid,1,1,1,0,0,0,1,0,1,1,1,1,1,1,1,1,0,0,0,1
+O=C(O)CC(O)(CC(=O)O)C(=O)O,Citric acid,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+O=C(O)CC1CCCCC1,Cyclohexaneacetic acid,0,0,0,0,0,0,0,0,1,0,1,0,1,1,1,0,0,0,0,1
+O=C(O)CCC(=O)O,Succinic acid,0,0,0,0,0,0,0,0,1,0,1,0,1,1,0,0,0,0,0,1
+O=C(O)CCCCC(=O)O,Adipic acid,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+O=C(O)c1ccccc1,Benzoic acid,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1
+O=C(OCCc1ccccc1)c1ccccc1,Phenethyl benzoate,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+O=C(OCCc1ccccc1)c1ccccc1O,Phenethyl salicylate,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+O=C(OCCc1ccccc1)c1ccco1,Phenethyl 2-furoate,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+O=C(OCc1ccccc1)c1ccccc1,Benzyl benzoate,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1
+O=C(OCc1ccccc1)c1ccccc1O,Benzyl salicylate,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1
+O=C(c1ccccc1)c1ccccc1,benzophenone,0,0,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,1
+O=C1CCCC1,Cyclopentanone,0,0,1,0,0,0,0,0,1,1,1,0,1,1,1,0,0,0,0,1
+O=C1CCCCC1,Cyclohexanone,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1
+O=C1CCCCCC1,Cycloheptanone,0,0,1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,1
+O=C1CCCCCCCCCCCCCCO1,Omega-Pentadecalactone,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+O=C1CCCCCN1,epsilon-Caprolactam,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+O=C1CCCO1,4-Hydroxybutanoic acid lactone,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,1,0,0,0,1
+O=C1CCSC1,"4,5-Dihydro-3(2H)-thiophenone",1,0,0,0,1,1,1,0,1,1,0,0,1,0,0,1,0,0,0,1
+O=C1CCc2ccccc2O1,Dihydrocoumarin,1,1,1,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,1,1
+O=CSCc1ccco1,2-Furanmethanethiol formate,1,0,0,0,1,1,1,0,1,1,1,1,1,0,1,1,1,0,0,1
+O=Cc1ccc(O)cc1,4-Hydroxybenzaldehyde,0,0,1,1,0,0,1,0,1,0,0,0,1,0,0,0,0,0,1,1
+O=Cc1ccc2c(c1)OCO2,piperonal,1,1,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1
+O=Cc1ccccc1,benzaldehyde,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1
+O=Cc1ccccc1O,salicylaldehyde,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,0,0,0,1
+O=P([O-])([O-])O.[Na+].[Na+],Sodium phosphate dibasic,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+O=c1ccc2ccccc2o1,coumarin,1,1,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1
+OC1CCC2CCCCC2C1,Decahydro-2-naphthol,0,0,1,0,0,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1
+OC1CSC(O)CS1,"2,5-Dihydroxy-1,4-dithiane",1,0,0,0,1,1,1,0,1,1,1,1,1,1,1,1,0,0,0,1
+OCC(O)C(O)C(O)C(O)CO,D-Sorbitol,1,0,0,0,0,1,0,0,1,1,0,0,1,0,0,1,0,0,0,1
+OCC(O)CO,glycerol,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+OCC1CCCO1,Tetrahydrofurfuryl alcohol,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+OCC1OC(O)C(O)C1O,D-(-)-Ribose,1,1,1,1,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,1
+OCC=Cc1ccccc1,cinnamyl alcohol,1,1,1,0,0,0,1,0,1,1,1,1,1,1,0,1,0,0,1,1
+OCCCCCc1ccccc1,5-Phenyl-1-pentanol,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1
+OCCCc1ccccc1,3-Phenyl-1-propanol,1,0,1,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,1,0
+OCCc1ccccc1,2-phenylethanol,0,0,1,1,0,0,1,1,0,0,0,1,1,0,0,0,0,0,1,1
+OCc1ccccc1,benzyl alcohol,0,0,1,1,0,0,0,1,0,1,1,1,0,0,0,0,0,0,1,1
+OCc1ccco1,Furfuryl alcohol,0,0,1,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,1
+S=C=NCCc1ccccc1,2-Phenylethyl isothiocyanate,1,0,0,0,0,0,1,0,1,1,1,1,1,1,1,1,1,0,0,1
+S=C=NCc1ccccc1,Benzyl isothiocyanate,0,0,0,0,1,1,1,0,1,1,1,0,1,1,1,1,0,0,0,1
+SC1CCCC1,Cyclopentanethiol,1,0,0,0,1,1,1,0,1,1,1,1,1,1,1,1,0,0,0,1
+SCCCCCCS,"1,6-Hexanedithiol",1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1
+SCCc1cnccn1,Pyrazineethanethiol,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sc1ccccc1,Benzenethiol,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+c1ccc(-c2ccccc2)cc1,Biphenyl,0,0,1,0,0,0,1,1,1,1,1,0,1,0,1,0,0,0,0,1
+c1ccc(COCc2ccccc2)cc1,Benzyl ether,1,1,1,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,1,1
+c1ccc(CSSCc2ccccc2)cc1,Benzyl disulfide,1,0,0,0,1,1,1,0,1,1,1,1,1,0,1,1,1,0,0,1
+c1ccc(Oc2ccccc2)cc1,Diphenyl ether,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+c1ccc(SSc2ccccc2)cc1,Phenyl disulfide,1,0,0,0,1,1,1,0,1,1,1,1,1,1,1,1,0,0,0,1
+c1ccc2ncccc2c1,Quinoline,0,0,1,0,0,0,0,0,1,1,1,1,1,0,1,1,0,0,0,1
+c1ccccc1,Benzene,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+c1ccncc1,pyridine,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+c1ccsc1,Thiophene,1,0,0,0,0,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0
+c1cnc2c(n1)CCCC2,"5,6,7,8-Tetrahydroquinoxaline",1,1,1,0,0,0,1,0,0,1,0,1,1,0,0,0,0,0,0,0
+c1cnccn1,pyrazine,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+c1coc(CSCc2ccco2)c1,"2,2'-(Thiodimethylene)difuran",1,0,0,0,0,1,1,0,1,1,1,1,1,0,1,1,0,0,0,1
+c1coc(Cn2cccc2)c1,1-Furfurylpyrrole,0,0,1,0,0,0,1,1,1,0,1,1,1,1,1,0,0,1,0,1
+c1cscn1,Thiazole,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1

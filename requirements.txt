@@ -1,0 +1,5 @@
+rdkit==2026.9.1
+scikit-learn==1.9.1
+pandas==3.1.1
+numpy==2.5.4
+joblib

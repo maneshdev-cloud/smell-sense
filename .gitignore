@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+# Trained model bundle (~91 MB) — retrain with train.py; too large for a normal GitHub push
+smell_model.joblib
+# Raw 1.43M-row ratings file (66 MB) — source: github.com/pyrfume/pyrfume-data (keller_2016); prepare_data.py regenerates the processed CSVs from it
+data/behavior.csv
