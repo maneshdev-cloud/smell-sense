@@ -1,0 +1,4 @@
+# v2 additions (on top of requirements.txt)
+# torch CPU wheel: pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch==2.15.0+cpu
+torch_geometric==2.8.1

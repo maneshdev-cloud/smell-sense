@@ -207,3 +207,158 @@ Run `similarity_check.py` to reproduce.
 
 Tested versions: Python 3.12, RDKit 2026.09.1, scikit-learn 1.9.1,
 pandas 3.1.1, NumPy 2.5.4.
+
+## v2 — bigger data + a graph neural network
+
+v2 asks the two obvious follow-ups to v1: does **more data** help, and does a
+**graph neural network** (the architecture Osmo's POM actually uses) beat
+fingerprints + random forest? Everything from v1 is untouched; v2 lives in
+`prepare_data_v2.py`, `graphs.py`, `train_gnn.py`, `predict_v2.py`,
+`results_v2.json` and the checkpoint `smell_gnn.pt` (0.52 MB).
+
+```bash
+./venv/bin/pip install -r requirements_v2.txt   # torch (CPU) + torch_geometric
+./venv/bin/python prepare_data_v2.py            # -> data/molecule_labels_v2.csv (+ mask)
+./venv/bin/python train_gnn.py                  # -> smell_gnn.pt, results_v2.json
+./venv/bin/python predict_v2.py "COc1cc(C=O)ccc1O"
+```
+
+### The enlarged dataset (3,465 molecules)
+
+Two more descriptor-labelled sets from the same official pyrfume-data repo
+were merged with Keller 2016 (all merges by RDKit-canonical SMILES with
+stereochemistry stripped, matching v1's treatment; a molecule in several
+sources keeps the **union** of its labels):
+
+| source | molecules | what it is | labels it can express |
+|---|---|---|---|
+| Keller & Vosshall 2016 | 474 | panel ratings (v1's data) | all 20 |
+| Dravnieks 1985 | 138 | panel *applicability* (%) on 146 words | 19 of 20 (no `edible`) |
+| Leffingwell (PMP 2001) | 3,400 | binary expert-catalogue tags on 113 words | 16 of 20 (no `edible`, `cold`, `acid`, `chemical`) |
+
+* **Dravnieks**: its applicability measure is the same quantity Keller
+  pooled, so it is binarised at the same ≥ 15% rule; its 146 words are
+  mapped onto Keller's 20 with explicit family tables (family score = max
+  of its words — e.g. Keller `fruit` ← any of 14 Dravnieks fruit words).
+  16 of its 160 stimuli have no CID/SMILES in the source and were dropped.
+* **Leffingwell**: a listed word counts as positive, an unlisted word as
+  negative *within the mapped families* (the conventional use of this
+  dataset, but weaker evidence than panel ratings — see the caveat below).
+  Two mappings are flagged proxies: Keller `sweaty` ← "cheesy" and
+  `ammonia_urinous` ← "catty" (the perfumery terms for those notes).
+* **Excluded — Keller 2012**: its descriptor table covers only 3 odorants
+  (the rest of that dataset is intensity/pleasantness), so it cannot
+  enlarge a descriptor dataset.
+* Labels a source cannot express are **not** faked as 0: a per-label
+  observed-mask (`data/molecule_mask_v2.csv`) travels with the data, the
+  GNN trains with a masked loss, and each control forest trains only on
+  molecules that observe its label. `edible` is learned from Keller
+  molecules only; `cold`/`acid`/`chemical` from Keller + Dravnieks (543
+  molecules); the other 14 labels from all 3,465.
+* Overlaps: 69 molecules are in both Keller and Dravnieks, 430 in both
+  Keller and Leffingwell, 112 in both Dravnieks and Leffingwell.
+* **Merge caveat, measured**: on molecules shared with Keller, the other
+  sources agree with Keller's labels 74% (Dravnieks) / 73% (Leffingwell)
+  of the time overall, but recover only 34% / 19% of Keller's *positives*.
+  The added sources are far more conservative about calling a smell
+  present — "not listed" often means "not characteristic", not "absent".
+  Expect label noise that mostly manufactures false negatives.
+
+### Fair-comparison design
+
+Validation (76) and test (95) are **exactly v1's Keller molecules** — same
+seed-42 split, recovered from `train.py` and verified (vanillin ∈ test,
+limonene ∈ train, benzaldehyde ∈ val, as in v1's README). Every non-Keller
+molecule was assigned to train (train pool: 3,294). The GNN's checkpoint
+was selected on validation only; test was touched once. As a control, v1's
+winning recipe (400-tree RF on the same fingerprints) was retrained on the
+enlarged pool — one forest per label, each on the molecules observing that
+label — so "more data" and "new architecture" can be told apart.
+
+### The GNN
+
+Atoms are nodes (42-dim one-hot features: element, degree, charge,
+hybridisation, aromaticity, H count, ring, chirality), bonds are bidirectional
+edges with a one-hot bond type. Architecture: **3 × GINEConv (hidden 128) +
+BatchNorm + ReLU, mean+max global pooling, MLP head → 18 logits**, trained
+with masked BCE (per-label `pos_weight`), Adam (lr 1e-3), batch 64, early
+stopping on validation (best checkpoint at epoch 7; stopped at 67).
+
+### Results (real, from `results_v2.json`)
+
+Macro-AUROC over the 18 descriptors, on v1's exact evaluation molecules:
+
+| model | train data | validation | test |
+|---|---|---|---|
+| random forest (v1) | 303 Keller | 0.699 | **0.741** |
+| random forest (v2 control) | 3,294 merged | 0.689 | 0.692 |
+| **GNN (v2)** | 3,294 merged | **0.706** | 0.709 |
+
+Honest reading:
+
+* **The GNN is the best model on validation** and beats the RF control
+  trained on the *same* enlarged data on both splits (0.706/0.689 val,
+  0.709/0.692 test) — given identical training molecules, the graph
+  architecture genuinely helps here.
+* **But v1's little RF still wins on test** (0.741). The enlarged data
+  *hurt* the RF overall (0.741 → 0.692): the added sources' conservative
+  positives clash with Keller's panel semantics on exactly the molecules
+  we test on. More data only helps if it speaks the same language.
+* The aggregate hides big per-label swings. The GNN fixed v1's hopeless
+  `cold` (0.485 → 0.664, thanks to Dravnieks actually having a "cool,
+  cooling" word) and is strong on `flower` (0.923), `garlic` (0.908),
+  `bakery` (0.874), `sweet` (0.828). It is *worse* on `chemical` (0.481,
+  chance), `musky` (0.539) and `decayed` (0.557) — labels where the added
+  data is sparsest or most idiosyncratic (Leffingwell tags "musk" only
+  for true musks, vs 278/474 Keller positives).
+* With 76 validation and 95 test molecules, differences of ±0.03 are
+  within noise. Treat the ranking as suggestive, not settled.
+
+### Example predictions — GNN (`predict_v2.py`, actual output)
+
+**Vanillin** (test molecule; merged ground truth: edible, bakery, sweet,
+fruit, spices, warm, flower):
+
+```
+spices 0.87 | warm 0.80 | sweet 0.77 | chemical 0.72 | wood 0.67 | edible 0.66 | cold 0.65 | burnt 0.65
+```
+
+**Limonene** (train molecule; merged ground truth: sweet, fruit, cold,
+musky, chemical — the union added `fruit` and `cold` to v1's Keller-only
+truth):
+
+```
+wood 0.88 | cold 0.75 | spices 0.71 | flower 0.63 | warm 0.62 | sweet 0.62 | musky 0.47 | chemical 0.47
+```
+
+Limonene is the GNN's visibly worst showcase: v1's RF had its top 3 exactly
+right; the GNN leads with `wood` (likely — this is interpretation, not
+measurement — because Leffingwell's wood family includes "pine", a note
+carried by many terpenes like limonene). Its true labels sit at ranks 6–8
+instead.
+
+**Benzaldehyde** (validation molecule; merged ground truth: edible,
+bakery, sweet, fruit, spices, warm, flower, chemical):
+
+```
+spices 0.80 | warm 0.72 | sweet 0.69 | chemical 0.67 | cold 0.65 | flower 0.65 | musky 0.58 | wood 0.57
+```
+
+### v2 limitations (in addition to v1's)
+
+* **Mixed label semantics** is the big one, quantified above: panel
+  application rates, atlas applicability and catalogue tags are three
+  different answers to three slightly different questions.
+* The GNN's best validation epoch was 7 of 400 — on this data it starts
+  memorising almost immediately; the win over the RF control is real but
+  modest, and checkpoint choice rides on 76 molecules.
+* `fish` (73 positives) and `grass` (935) now have more merged data but
+  remain unpredicted, to stay comparable with v1's 18 targets.
+* Added in v2: `graphs.py` (SMILES → PyG graphs), `prepare_data_v2.py`,
+  `train_gnn.py`, `predict_v2.py`, `results_v2.json`, `smell_gnn.pt`,
+  `requirements_v2.txt`, `data_v2/` (raw source CSVs for Dravnieks and
+  Leffingwell; the inspected-but-excluded Keller 2012 download is
+  git-ignored), `data/molecule_labels_v2.csv`, `data/molecule_mask_v2.csv`.
+
+Tested versions for v2: PyTorch 2.15.0+cpu, torch_geometric 2.8.1,
+on top of v1's stack.

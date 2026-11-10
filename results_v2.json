@@ -1,0 +1,183 @@
+{
+  "dataset_v2": {
+    "sources": [
+      "keller_2016 (panel ratings, pyrfume-data)",
+      "dravnieks_1985 (panel applicability, pyrfume-data)",
+      "leffingwell (catalogue annotations, pyrfume-data)"
+    ],
+    "n_molecules": 3465,
+    "n_train": 3294,
+    "split_note": "val/test are exactly v1's 76/95 Keller molecules; every non-Keller molecule is in train",
+    "labels": [
+      "edible",
+      "bakery",
+      "sweet",
+      "fruit",
+      "garlic",
+      "spices",
+      "cold",
+      "sour",
+      "burnt",
+      "acid",
+      "warm",
+      "musky",
+      "sweaty",
+      "ammonia_urinous",
+      "decayed",
+      "wood",
+      "flower",
+      "chemical"
+    ],
+    "label_observed_counts_train": {
+      "edible": 303,
+      "bakery": 3294,
+      "sweet": 3294,
+      "fruit": 3294,
+      "garlic": 3294,
+      "spices": 3294,
+      "cold": 372,
+      "sour": 3294,
+      "burnt": 3294,
+      "acid": 372,
+      "warm": 3294,
+      "musky": 3294,
+      "sweaty": 3294,
+      "ammonia_urinous": 3294,
+      "decayed": 3294,
+      "wood": 3294,
+      "flower": 3294,
+      "chemical": 372
+    },
+    "label_positive_counts_train": {
+      "edible": 107,
+      "bakery": 88,
+      "sweet": 917,
+      "fruit": 1642,
+      "garlic": 188,
+      "spices": 327,
+      "cold": 37,
+      "sour": 184,
+      "burnt": 374,
+      "acid": 133,
+      "warm": 147,
+      "musky": 195,
+      "sweaty": 173,
+      "ammonia_urinous": 85,
+      "decayed": 245,
+      "wood": 277,
+      "flower": 709,
+      "chemical": 266
+    }
+  },
+  "gnn": {
+    "architecture": "3x GINEConv (hidden 128) + BatchNorm + ReLU, mean+max global pooling, MLP head; masked BCE with per-label pos_weight; Adam lr 1e-3",
+    "best_epoch": 7,
+    "checkpoint": "smell_gnn.pt",
+    "checkpoint_size_mb": 0.519
+  },
+  "val_macro_auroc": {
+    "random_forest_v1": 0.6988222559452388,
+    "random_forest_v2_control": 0.6891399356860315,
+    "gnn_v2": 0.706123572761014
+  },
+  "test_macro_auroc": {
+    "random_forest_v1": 0.7412526413184108,
+    "random_forest_v2_control": 0.6921572175821882,
+    "gnn_v2": 0.7085701105647535
+  },
+  "test_per_label_auroc": {
+    "random_forest_v1": {
+      "edible": 0.8054029304029304,
+      "bakery": 0.8156660412757973,
+      "sweet": 0.8296760710553814,
+      "fruit": 0.8563432835820896,
+      "garlic": 0.896551724137931,
+      "spices": 0.7370454545454546,
+      "cold": 0.48457278481012656,
+      "sour": 0.6072719060523939,
+      "burnt": 0.7421630094043887,
+      "acid": 0.7163072776280324,
+      "warm": 0.6679869524697111,
+      "musky": 0.652123730378578,
+      "sweaty": 0.7342342342342343,
+      "ammonia_urinous": 0.7392307692307692,
+      "decayed": 0.7772887323943664,
+      "wood": 0.8023529411764706,
+      "flower": 0.8331556503198294,
+      "chemical": 0.6451740506329113
+    },
+    "random_forest_v2_control": {
+      "edible": 0.7900641025641025,
+      "bakery": 0.8083333333333333,
+      "sweet": 0.7688571428571428,
+      "fruit": 0.8566992014196984,
+      "garlic": 0.9024547803617571,
+      "spices": 0.5540909090909091,
+      "cold": 0.43117088607594933,
+      "sour": 0.5047425474254743,
+      "burnt": 0.7886119257087,
+      "acid": 0.7193181818181819,
+      "warm": 0.5987884436160298,
+      "musky": 0.5528890959925442,
+      "sweaty": 0.75,
+      "ammonia_urinous": 0.6356410256410256,
+      "decayed": 0.7257053291536051,
+      "wood": 0.6571294559099438,
+      "flower": 0.9356943150046598,
+      "chemical": 0.4786392405063291
+    },
+    "gnn_v2": {
+      "edible": 0.799908424908425,
+      "bakery": 0.8741666666666666,
+      "sweet": 0.828,
+      "fruit": 0.7945874001774623,
+      "garlic": 0.9082687338501292,
+      "spices": 0.6572727272727273,
+      "cold": 0.6637658227848102,
+      "sour": 0.5907859078590786,
+      "burnt": 0.7751710654936461,
+      "acid": 0.7095454545454545,
+      "warm": 0.6104380242311276,
+      "musky": 0.5386766076421249,
+      "sweaty": 0.7628571428571429,
+      "ammonia_urinous": 0.6005128205128205,
+      "decayed": 0.557471264367816,
+      "wood": 0.6791744840525329,
+      "flower": 0.9226467847157502,
+      "chemical": 0.48101265822784817
+    }
+  },
+  "showcase_predictions_gnn": {
+    "vanillin": {
+      "spices": 0.87,
+      "warm": 0.8,
+      "sweet": 0.77,
+      "chemical": 0.72,
+      "wood": 0.67,
+      "edible": 0.66,
+      "cold": 0.65,
+      "burnt": 0.65
+    },
+    "limonene": {
+      "wood": 0.88,
+      "cold": 0.75,
+      "spices": 0.71,
+      "flower": 0.63,
+      "warm": 0.62,
+      "sweet": 0.62,
+      "musky": 0.47,
+      "chemical": 0.47
+    },
+    "benzaldehyde": {
+      "spices": 0.8,
+      "warm": 0.72,
+      "sweet": 0.69,
+      "chemical": 0.67,
+      "cold": 0.65,
+      "flower": 0.65,
+      "musky": 0.58,
+      "wood": 0.57
+    }
+  },
+  "runtime_seconds": 486.9
+}
